@@ -12,7 +12,7 @@ class PasswordManagement:
     # 1.1 system store the new pswd securely
     def save_pswd(self):
         return None
-    # 1.2 system store the new system without encryption
+    # 1.2 system store the new username without encryption
     def save_username(self):
         return None
     # 1.2 system double checks the stored username is without encryption
@@ -46,7 +46,7 @@ class PasswordManagement:
     # PART D
     # 4.1 when user is granted the access and auto login is triggered, system pop up the choice boxing of
     # confirm or deny auto login access
-    def pop_choice_box(self):
+    def pop_choices_box(self):
         return None
     # 4.1 when user select the choice from the popup box, system will save the choice.
     def user_choice(self):
