@@ -5,7 +5,7 @@ class PasswordManagement:
         return None
     # 1.1 when a user enter the password and username, system will detect them and store in some way
     def get_pswd_username(self):
-        return
+        return None
     # 1.1 system encrypt the new pswd detected
     def encrypt_pswd(self):
         return None
